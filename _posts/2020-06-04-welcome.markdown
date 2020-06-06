@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Welcome to my blog!"
+date:   2020-06-04 15:02:56 +0530
+categories: jekyll update
+---
+
+## Welcome to my blog!
+
+Appreciate your time here. Here I post on my interests!
+* Millets
+* Tamil literature
+* Cholas
+* Machine Learning
+
+[jekyll-docs]: https://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/
