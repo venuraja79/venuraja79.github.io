@@ -35,7 +35,7 @@ you have to visit these 4 temples in this order.
 
 Contemporary analogy is to see how iPhone has transformed in 13 years of its existence in size and finesse.
 <div class="imgcap" align="center">
-<img src="/images/chola/iphone.jpg" height="75%" width="75%">
+<img src="/images/chola/iPhone.jpg" height="75%" width="75%">
 </div>
 
 <br>
