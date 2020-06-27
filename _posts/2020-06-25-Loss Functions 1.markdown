@@ -77,9 +77,9 @@ If the predicted probability is 0.1, the resultant loss from the above equation 
 If the probability is 0.9, the loss is 0.1. You can see that this function fits our bill, the loss reduces as the 
 predicted value is closer to actual value. You can try on your own. It works the other way as well.
 
-You can learn more **here**(https://ml-cheatsheet.readthedocs.io/en/latest/loss_functions.html)
+You can learn more [**here**](https://ml-cheatsheet.readthedocs.io/en/latest/loss_functions.html)
 
-The example code is **here**(https://colab.research.google.com/drive/1FElLRoubzuejXwFnudayfE-LL_hgjZD0?usp=sharing)
+The example code is [**here**](https://colab.research.google.com/drive/1FElLRoubzuejXwFnudayfE-LL_hgjZD0?usp=sharing)
 
 
 
