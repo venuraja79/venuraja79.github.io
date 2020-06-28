@@ -51,7 +51,7 @@ The collected data will be stored and used for improving the scoring algorithms.
 A schematic is below
 
 <div class="imgcap">
-<img src="/assets/bertqa.jpg">
+<img src="/images/bertqa.jpg">
 </div>
 
 ## Summary
