@@ -34,14 +34,12 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
 
+repository: "venuraja79/venuraja79.github.io"
 comments:
   provider: "utterances"
   utterances:
     theme: "github-light" # "github-dark"
     issue_term: "pathname"
-
-repository: venuraja79/venuraja79.github.io
-
 
 defaults:
   # _posts
