@@ -29,7 +29,9 @@ twitter_username: venuraja
 github_username:  venuraja79
 
 # Build settings
-theme: minima
+# theme: minima
+remote_theme: "mmistakes/minimal-mistakes@4.19.3"
+
 plugins:
   - jekyll-feed
   - jekyll-sitemap
