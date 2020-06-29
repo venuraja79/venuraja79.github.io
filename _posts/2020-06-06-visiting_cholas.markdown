@@ -1,17 +1,16 @@
 ---
-layout: post
+layout: single
 title:  "Wish to see the Evolution of Chola Architecture?"
 date:   2020-06-06 15:02:56 +0530
 categories: jekyll update
 ---
 
-## Intro
-
-You can read about Cholas [**here**](https://en.wikipedia.org/wiki/Chola_dynasty)
-
+## Introduction
 Cholas especially medieval Cholas ruled South India for a period of 350 years. During this golden period
 they built temples, dams, lakes and other [**water bodies**](https://unacademy.com/lesson/water-management-system-of-the-cholasin-tamil/6IV8XYVM) that arguably serve food for people living in Tamilnadu
 today. The Kaveri delta region achieved its full glory during their reign.
+
+You can read about Cholas [**here**](https://en.wikipedia.org/wiki/Chola_dynasty)
 
 Not just in water management, they have built marvelous architectural temples that still stand today 
 even after a millennia.

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "Question Answering systems using BERT and Transformers"
 excerpt: "Build and deploy Q&A systems at scale on corpus of text such as web
 sites, web pages, documents and FAQs"

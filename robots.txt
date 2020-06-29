@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://venuraja79.github.io/sitemap.xml

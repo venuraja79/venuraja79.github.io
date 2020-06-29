@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "Explaining Loss Functions - Part 1"
 date:   2020-06-25 17:15:20 +0530
 categories: jekyll update
