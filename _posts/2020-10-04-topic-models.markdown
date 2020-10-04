@@ -1,11 +1,11 @@
 ---
 layout: single
-title:  "Building Topic models for Text"
+title:  "Learnings & Best practices from building Topic models"
 date:   2020-10-04 09:01:10 +0530
 categories: jekyll update
 ---
 
-## Text Text everywhere.
+## Text, Text everywhere.
 With the rise of social media, short messaging platforms such as twitter, technology discussion forums such as
 stackoverflow, hacker news and reddit see continuous activity. As a result, lot of text gets generated and this 
 momentum will continue in future not just in English language but also in lot of other regional, 
@@ -56,9 +56,9 @@ better topics than random initialization of vanilla LDA in the scenarios that we
 Given a document-word matrix (M), the method factors them into two matrices W X H. The W matrix provides
 the document-topic relationship and the H matrix provides topic-words mapping.
 
-M -> d x w (document x words)
-W -> d x z (document x topics)
-H -> z x w (topics x words)
+* M -> d x w (document x words)
+* W -> d x z (document x topics)
+* H -> z x w (topics x words)
 
 The documents are tokenized first using a TF-IDF tokenizer first to produce the Document-Term matrix which
 is then used for factorization. A very good implementation is [here](https://github.com/derekgreene/topic-model-tutorial/blob/master/2%20-%20NMF%20Topic%20Models.ipynb)
@@ -79,11 +79,28 @@ into a 768d embedding which when used on short messages produced meaningful clus
 
 Finding optimal number of clusters is a challenge, using elbow method with wss (within-cluster sum of square).
 
-## Learning
-Given a corpus of text, which method to try?
-How to evaluate the topic models?
+## Learnings
+* Data cleaning improves topics. Spending time on Exploratory analysis and understanding the dataset is
+a sure way to get better topics.
+1. Careful stop words removal
+2. Lemmatization
+3. Tokeninzation methods and its hyperparameters
 
-These two questions are very important and will be convered in the next article.
+* Some words can be part of multiple topics and this is acceptable
+
+* Review the topics with people that have domain knowledge on the documents to avoid surprises
+
+* For shorter texts, NMF is a good method to start with and move on to guided lda if looking for a
+semi-supervised method.
+
+## Challenges
+* LDA is unstable even for minor changes (ex: stop words) and produces different topics across runs even
+with the same seed. 
+
+* Training pre-trained transformer models with domain specific words can produce better results. 
+
+
+Thanks for reading, please feel free to post your feedback
 
 
 
