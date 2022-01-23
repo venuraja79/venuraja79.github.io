@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "The Impending Population Collapse"
-date:   2020-10-04 09:01:10 +0530
+date:   2022-01-23 09:01:10 +0530
 categories: jekyll update
 ---
 When I step out of my semi-urban (semi-rural?) apartment block in India, I see a sea of people today
@@ -51,3 +51,18 @@ if the current fertility rates don't change.
 |  State (population in '000)     |2011  |2016 | 2021 | 2026 | 2031 | 2036
 --- | --- | ---|--- | --- | ---|--- |
 |Tamil Nadu|72147|74635|76402|77546|78082|78067
+
+<div class="imgcap" align="center">
+<img src="/images/population/tn-age-grp.jpg" height="75%" width="75%">
+</div>
+<br>
+
+The same scenario will play out in most of the Indian states. Some notable exceptions are Bihar, UP. They will still catch up with us
+in a few decades if not now.
+
+If humans are pushing earth to its extremes, a population decline is after all a must be a good thing. right? Not so fast. It is not just
+about the numbers, it is about the way people live their life. An average person in a developed nation emits way more carbon than a person in developing nation. A simple 
+ contented life, aligned with nature will definitely help.
+ 
+Population decline is surely upon us. This brings in a set of new opportunities and challenges. For the first time, 
+1 in 5 people in TN will be over 60 years. 
