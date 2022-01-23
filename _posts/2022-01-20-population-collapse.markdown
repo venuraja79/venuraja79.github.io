@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "The Impending Population Collpase"
+title:  "The Impending Population Collapse"
 date:   2020-10-04 09:01:10 +0530
 categories: jekyll update
 ---
