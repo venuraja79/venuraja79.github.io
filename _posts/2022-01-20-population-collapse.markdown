@@ -5,7 +5,7 @@ date:   2022-01-20 09:01:10 +0530
 categories: jekyll update
 ---
 When I step out of my semi-urban (semi-rural?) apartment block in India, I see a sea of people today
-traveling by all possible means to do all sorts of things. The next thing I think of is that it must 
+traveling by all possible means to do all sorts of things. The next thing I assume is that it must 
 been like this all along and it will be so forever. Wait a sec, this can't be true! For a fact, we know that
 civilization is just 5000 or so years old and earth was still in an [ice age](https://en.wikipedia.org/wiki/Last_Glacial_Period) 12,000 years ago.
 This must be my naive mind (supposed to be intelligent with it's 100 billion neurons) playing tricks on me to keep me in the dark.
@@ -83,6 +83,9 @@ Technology companies and start-up ecosystem can build solutions for elderly care
 
 Overall, this seems to be an interesting period for everyone involved. Anyone who is in ~30s today will live long enough to see
 all this through. We have examples of other countries such as Japan to learn from and improvise.
+
+Thinking far ahead in earth's terms, taking inspiration from Tolstoy's Anna Karenina - "Living Species are all alike; 
+every dying species dies in its own way!"
 
 References:
 1. [India population projections](https://ruralindiaonline.org/en/library/resource/population-projections-for-india-and-states-2011-2036/)
