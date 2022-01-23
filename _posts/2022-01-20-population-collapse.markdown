@@ -44,6 +44,6 @@ momentum gained before 1990.
 [source - wiki](https://en.wikipedia.org/wiki/List_of_states_and_union_territories_of_India_by_fertility_rate)
 
 Looking forward, [peak population](https://ruralindiaonline.org/en/library/resource/population-projections-for-india-and-states-2011-2036/) is expected in 2031 and will start reducing from there on 
-if the current fertility rates don't change.
+if the current fertility rates don't change. 
 
 
