@@ -46,18 +46,21 @@ For the past 25 years or so, we are below replacement level. Our population is s
 momentum gained before 1990.
 
 Looking forward, [peak population](https://ruralindiaonline.org/en/library/resource/population-projections-for-india-and-states-2011-2036/) is expected in 2031 and will start reducing from there on 
-if the current fertility rates don't change.
+if the current fertility rates don't change. 
 
 |  State (population in '000)     |2011  |2016 | 2021 | 2026 | 2031 | 2036
 --- | --- | ---|--- | --- | ---|--- |
 |Tamil Nadu|72147|74635|76402|77546|78082|78067
 
+Number of births, hence the school children keeps going down where as the 60+ group keeps increasing
+and touches almost 20% in the next 10 years or so. People are expected to live longer (Life expectancy keeps increasing) because of better health care and living conditions overall. 
+
 <div class="imgcap" align="center">
-<img src="/images/population/tn-age-grp.jpg" height="75%" width="75%">
+<img src="/images/population/tn-age-grp.jpg" height="100%" width="80%">
 </div>
 <br>
 
-The same scenario will play out in most of the Indian states. Some notable exceptions are Bihar, UP. They will still catch up with us
+The same scenario will play out in most of the other Indian states. Some notable exceptions are Bihar and UP and they too will catch up with us
 in a few decades if not now.
 
 If humans are pushing earth to its extremes, a population decline is after all a must be a good thing. right? Not so fast. It is not just
@@ -65,4 +68,24 @@ about the numbers, it is about the way people live their life. An average person
  contented life, aligned with nature will definitely help.
  
 Population decline is surely upon us. This brings in a set of new opportunities and challenges. For the first time, 
-1 in 5 people in TN will be over 60 years. 
+1 in 5 people in TN will be over 60 years. We need government policies to accommodate for
+* Robust Health care - More elders will need more hospitals and doctors
+* Elderly friendly Infrastructure
+* Social security such as pension
+* Elderly friendly housing
+
+At the same time, the education has to focus on quality rather than quantity as we enter into a
+phase of less and less school children.
+
+Technology companies and start-up ecosystem can build solutions for elderly care. Some of them can be
+* AI powered devices/services for assisting elders to take care of themselves
+* Customer assistance focusing on elderly needs.
+
+Overall, this seems to be an interesting period for everyone involved. Anyone who is in ~30s today will live long enough to see
+all this through. We have examples of other countries such as Japan to learn from and improvise.
+
+References:
+1. [India population projections](https://ruralindiaonline.org/en/library/resource/population-projections-for-india-and-states-2011-2036/)
+2. [Fertility rate: Jaw-dropping global crash](https://www.bbc.com/news/health-53409521.amp)
+3. [Japan's ghost towns](https://asia.nikkei.com/Business/Markets/Property/Japan-s-ghost-houses-given-second-life-as-rural-towns-fight-blight)
+4. [South Korea's population Decline](https://www.kedglobal.com/newsView/ked202112090010)
