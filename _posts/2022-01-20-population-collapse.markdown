@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "The Impending Population Collapse"
-date:   2022-01-23 09:01:10 +0530
+date:   2022-01-20 09:01:10 +0530
 categories: jekyll update
 ---
 When I step out of my semi-urban (semi-rural?) apartment block in India, I see a sea of people today
