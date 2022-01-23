@@ -31,9 +31,9 @@ such as women empowerment, individualism, societal factors.
 The first time I heard about the term "population collapse" was two years ago from none other than Elon Musk in one of his interviews. Living in India, navigating
 the never ending queues and traffic this was a huge surprise. Things started to clear once I started reading a few papers and review the data available. 
 There are countries today in the world that are already in population decline or will be very soon. Most of Europe, Japan, South Korea and many more. Once the trend sets in, it
-seems to be very challenging to reverse even with government policies.
+seems to be very challenging to reverse even with government policies that encourage more kids.
 
-Closer home, in Tamil nadu things look very normal with people everywhere. Just that looks can be deceptive. A fertility rate of 2.1 will keep the population in equilibrium. Tamil nadu's fertility rates
+Closer home, in Tamil Nadu things look very normal with people everywhere. Just that looks can be deceptive. A fertility rate of 2.1 will keep the population in equilibrium. Tamil nadu's fertility rates
 for the past 30 years are here.
 
 |  State     |1981  |1991 | 1999 | 2009 | 2019 | 2020
@@ -63,7 +63,7 @@ and touches almost 20% in the next 10 years or so. People are expected to live l
 The same scenario will play out in most of the other Indian states. Some notable exceptions are Bihar and UP and they too will catch up with us
 in a few decades if not now.
 
-If humans are pushing earth to its extremes, a population decline is after all a must be a good thing. right? Not so fast. It is not just
+If humans are pushing earth to its extremes, a population decline after all must be a good thing. right? Not so fast. It is not just
 about the numbers, it is about the way people live their life. An average person in a developed nation emits way more carbon than a person in developing nation. A simple 
  contented life, aligned with nature will definitely help.
  
