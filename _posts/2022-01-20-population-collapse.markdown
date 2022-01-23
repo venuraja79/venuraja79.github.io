@@ -15,18 +15,18 @@ last 2 centuries alone, the population has increased from 1 to 8 billion like ne
 sustainably feeding our population, saving water/air from pollution and many more issues mainly caused by the huge population. In the midst of all this 
 what are the odds of someone thinking about a population decline?
 
-Earth has witnessed a few population declines before. The one that we are in now will be a painful and seminal moment for us.
-Anyway, the signs have been there from the 1980s if we trust what experts have to say. In [Empty Planet](https://www.goodreads.com/book/show/37585564-empty-planet), the authors
-claim that the population decline was set in motion the moment we turned from a rural, agricultural society to an more urban, modern society. The argument goes: More hands are needed to 
-tend a family farm. So, kids are an investment. In an urban setting though, they are more mouths to feed. There are others
-such as women empowerment, individualism, societal factors.
-
 The first life on earth formed [4 billion years](https://naturalhistory.si.edu/education/teaching-resources/life-science/early-life-earth-animal-origins) ago. From there on, life
 has evolved and re-evolved from very simple to extraordinarily beautiful forms that we see on earth today. Human is just one of them. New species
 come to life for reasons that we can't fathom ([Cambrian Explosion](https://en.wikipedia.org/wiki/Cambrian_explosion) is an example), do their thing and die down leaving way for others. After all, earth is not just all about us.
 
 Humans are a very recent species in earth's timeline. Homo Sapiens have been around here only for 200,000 years. We have a brain that is envy of other animals in the kingdom. Does that make us 
 special? Our action here seems to suggest that earth was in penance for so long for humans to arrive and we could be the ultimate! There is no guarantee though!!
+
+Earth has witnessed a few population declines before. The one that we are in now will be a painful and seminal moment for us.
+Anyway, the signs have been there from the 1980s if we trust what experts have to say. In [Empty Planet](https://www.goodreads.com/book/show/37585564-empty-planet), the authors
+claim that the population decline was set in motion the moment we turned from a rural, agricultural society to an more urban, modern society. The argument goes: More hands are needed to 
+tend a family farm. So, kids are an investment. In an urban setting though, they are more mouths to feed. There are others
+such as women empowerment, individualism, societal factors.
 
 The first time I heard about the term "population collapse" was two years ago from none other than Elon Musk in one of his interviews. Living in India, navigating
 the never ending queues and traffic this was a huge surprise. Things started to clear once I started reading a few papers and review the data available. 
@@ -56,7 +56,7 @@ Number of births, hence the school children keeps going down where as the 60+ gr
 and touches almost 20% in the next 10 years or so. People are expected to live longer (Life expectancy keeps increasing) because of better health care and living conditions overall. 
 
 <div class="imgcap" align="center">
-<img src="/images/population/tn-age-grp.jpg" height="100%" width="80%">
+<img src="/images/population/tn-age-grp.jpg" height="100%" width="100%">
 </div>
 <br>
 
