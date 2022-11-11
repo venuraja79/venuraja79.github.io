@@ -23,7 +23,13 @@ achieve even by domain experts.
 Instead, we will design algorithms that 'learns' the rules from the historical data for the particular problem. We teach the 
 machines how to learn from the data themselves. Please read the below notebook and feel free to play around with the code provided.
 
-[Jupyter Notebook](https://github.com/venuraja79/ml-basics/blob/master/Machine%20Learning%20Intuition.ipynb)
+[Jupyter Notebook](https://github.com/venuraja79/ml-basics/blob/master/01%20Machine%20Learning%20Intuition.ipynb)
+
+---
+
+**Lecture 2. Vectorization and Broadcasting:**
+
+[Jupyter Notebook](https://github.com/venuraja79/ml-basics/blob/master/02%20Linear%20Regression%20-%20Vectorized.ipynb)
 
 ---
 More to follow...
