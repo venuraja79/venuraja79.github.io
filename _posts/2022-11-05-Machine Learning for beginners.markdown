@@ -29,7 +29,23 @@ machines how to learn from the data themselves. Please read the below notebook a
 
 **Lecture 2. Vectorization and Broadcasting:**
 
+Vectorization helps to optimize the cost of model training. Broadcasting is an important aspect to get right when vectorizing
+the ML operations, any mistakes are very difficult to identify and debug.
+
 [Jupyter Notebook](https://github.com/venuraja79/ml-basics/blob/master/02%20Linear%20Regression%20-%20Vectorized.ipynb)
 
 ---
+
+**Lecture 3. Classification - Logistic Regression:**
+
+Classification is a bread and butter task in Machine Learning. Given a few categories, we train a model 
+using a dataset, that predicts the category/class of the new data point. 
+
+As usual, we will define a toy dataset and build out the complete logistic classification model from scratch
+in python. We will leverage cross entropy loss function to train the model.
+
+[Jupyter Notebook](https://github.com/venuraja79/ml-basics/blob/master/03%20Logistic%20Regression.ipynb)
+
+---
+
 More to follow...
