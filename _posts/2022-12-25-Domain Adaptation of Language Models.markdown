@@ -1,4 +1,9 @@
-# Training Language Models for out of domain scenarios
+---
+layout: single
+title:  "Training Language Models for out-of-domain scenarios"
+date:   2022-12-20 17:15:20 +0530
+categories: jekyll update
+---
 
 ## Overview
 Language Models are the talk of the town. They produce state-of-the-art results in many tasks such as 
@@ -27,7 +32,7 @@ problem statements.
 
 * Fine-tuning on a custom task
 * Augment the language model for a new domain
-* Few-shot learning for semantic search
+* Semantic search in domain specific data
 * Aligning the models towards human preferences with Reinforcement Learning
 
 ### 1. Task based fine-tuning
@@ -57,7 +62,7 @@ are large and doesn't fit this 512 token limit. We follow a combination of summa
 
 * Setup the MLOps process so that further training can be automated.
 
-More details on the [training procedure] (https://huggingface.co/docs/transformers/training) is here.
+More details on the [training procedure](https://huggingface.co/docs/transformers/training) is here.
 
 ### 2. Augment a Language model for a domain
 
@@ -75,10 +80,22 @@ It is also possible to create a domain specific LM from scratch without actually
 process requires large text corpus and more GPU compute. This [**paper**](https://arxiv.org/abs/2007.15779) has more details
 on this.
 
-### 3. Few-shot learning for Semantic search
+### 3. Improving Semantic search results
 
-Semantic search is another focus area for us where we have used embeddings produced by LMs for implementing search on
-engineering document repositories. 
+Most of the search platforms such as elasticsearch/Solr are powered by keyword based algorithms such as BM25 by default. 
+Semantic search improves search relevance as they use model based embeddings. It works on how similar the documents are in the vector space 
+relative to a search query.
+
+We have implemented semantic search powered by model based embeddings to improve the search performance on engineering document repositories.
+When the vanilla embeddings from the sentence-transformers (a flavor of BERT model fine-tuned for search) are used, the search performance is not optimal. 
+So, we fine-tuned embeddings so that related documents are closer in the vector space whereas un-related documents are as far away as possible. 
+
+We annotated a training set (few tens to hundreds of examples - query, related and unrelated pairs) and fine-tuned the model with 
+the [**GPL**](https://github.com/UKPLab/gpl) technique. The training data creation can be automated as explained in this paper.
+
+### 4. RLHF - Reinforcement Learning from Human Feedback
+
+
 
 
 
