@@ -25,14 +25,18 @@ requires an architecture change (adding a classification head) and training with
 called fine-tuning.
 
 ## Customizing Language Models
+[Transformer](https://arxiv.org/abs/1706.03762) is an [encoder-decoder](https://jalammar.github.io/illustrated-transformer/) architecture.
+The tasks such as classification, NER, Question-Answering just depend on the encoder part of the model where as tasks that
+generate text (summarization, language translation) requires both encoder and decoder.
+
 Customizing a model can be as simple as training with a few examples on a particular language task. Sometimes, 
-it can be a complex process that involves fully retraining the model with large corpus of domain specific text 
-and augmenting its dictionary. We have experience in the following model customizations and this varies for different
-problem statements.
+it can be a complex process that involves full retraining of the model with large corpus of domain specific text 
+and augmenting its dictionary. Here are some of the model customizations that have worked well for us in the projects...
 
 * Fine-tuning on a custom task
 * Augment the language model for a new domain
 * Semantic search in domain specific data
+* Few-shot learning with sentence transformers for classification
 * Aligning the models towards human preferences with Reinforcement Learning
 
 ### 1. Task based fine-tuning
@@ -87,13 +91,46 @@ Semantic search improves search relevance as they use model based embeddings. It
 relative to a search query.
 
 We have implemented semantic search powered by model based embeddings to improve the search performance on engineering document repositories.
-When the vanilla embeddings from the sentence-transformers (a flavor of BERT model fine-tuned for search) are used, the search performance is not optimal. 
-So, we fine-tuned embeddings so that related documents are closer in the vector space whereas un-related documents are as far away as possible. 
+When the vanilla embeddings from the sentence-transformers (a flavor of BERT model fine-tuned for search) are used, 
+the search performance is not optimal. So, we fine-tuned embeddings so that related documents are closer in the 
+vector space whereas un-related documents are as far away as possible. 
 
-We annotated a training set (few tens to hundreds of examples - query, related and unrelated pairs) and fine-tuned the model with 
+We annotated a training set (few tens to hundreds of examples - query, related and unrelated triplets) and fine-tuned the model with 
 the [**GPL**](https://github.com/UKPLab/gpl) technique. The training data creation can be automated as explained in this paper.
 
-### 4. RLHF - Reinforcement Learning from Human Feedback
+### 4. Few-short learning for classification
+With just a few examples, this technique seems to produce pretty good results in classification. The idea is to 
+start with an already pretrained sentence transformer model and fine-tune it with very few examples in the domain. The 
+[**setfit**](https://github.com/huggingface/setfit) framework provides more details of the training process.
+
+As we already know, Sentence transformers are pretrained to generate embeddings based on document's proximity. If the documents
+are far from each other, the embeddings also will be so in the vector space. In a contrastive classification setting, this
+property helps to distinguish different classes of documents and seems the magic behind this model that makes it work so well.
+
+This is a recent technique and we plan to apply this in our future projects.
+
+### 5. RLHF - Reinforcement Learning from Human Feedback
+
+There is so much attention recently on [chatGPT](https://openai.com/blog/chatgpt/) model from OpenAI which is fine-tuned
+for dialogue. The origins for the techniques used in chatGPT are from this 
+interesting paper [Learning to Summarize](https://openai.com/blog/learning-to-summarize-with-human-feedback/) that uses
+Reinforcement Learning to align the model towards human preferences.
+
+Language models have their own style that shows up in tasks such as summarization or language translation. A model trained
+on arxiv papers will produce text that will look professional and scientific in style. If we want to nudge the models
+towards a style that humans prefer, this method seems to be the way to go. We see a lot of potential uses for this 
+technique in our summarization work to align the models towards a particular style or domain. 
+
+Compared to other techniques discussed, this is comparatively complex and requires designing a reward function that
+outputs a higher reward for the text in the preferred style and less reward otherwise. More details are [here](https://huggingface.co/blog/rlhf)
+
+## Parting thoughts
+Most of the time, it is not enough to just integrate the pre-existing models or third party APIs when building AI
+capabilities for production use cases. The Machine Learning professionals have the need to custom train the models
+for a particular domain. We can't treat these models as black box and have to gain an intuitive understanding of both the
+architecture and the neural network training basics such as backpropagation. Actually, this makes the Machine learning journey more
+exciting and rewarding.
+
 
 
 
